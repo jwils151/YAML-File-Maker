@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: '$pT(AuAu)$'}
+  values:
+  - {value: 0.250}
+  - {value: 0.750}
+  - {value: 1.250}
+  - {value: 1.750}
+  - {value: 2.363}
+  - {value: 3.385}
+  - {value: 4.686}
+  - {value: 6.842}
+  - {value: 10.790}
+dependent_variables:
+- header: {name: '$width$'}
+  qualifiers:
+  - {name: '$pT(AuAu)$', value: '$Gaussian widths of the awayside jet peaks in Au+Au(10-15 GeV)$'}
+  values:
+  - value: 0.673
+    errors:
+    - {symerror: 0.063, label: '$stat$'}
+  - value: 0.860
+    errors:
+    - {symerror: 0.041, label: '$stat$'}
+  - value: 0.767
+    errors:
+    - {symerror: 0.051, label: '$stat$'}
+  - value: 0.559
+    errors:
+    - {symerror: 0.074, label: '$stat$'}
+  - value: 0.422
+    errors:
+    - {symerror: 0.030, label: '$stat$'}
+  - value: 0.307
+    errors:
+    - {symerror: 0.015, label: '$stat$'}
+  - value: 0.246
+    errors:
+    - {symerror: 0.008, label: '$stat$'}
+  - value: 0.232
+    errors:
+    - {symerror: 0.008, label: '$stat$'}
+  - value: 0.193
+    errors:
+    - {symerror: 0.007, label: '$stat$'}

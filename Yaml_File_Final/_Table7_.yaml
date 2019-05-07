@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$pT$'}
+  values:
+  - {value: 0.250}
+  - {value: 0.750}
+  - {value: 1.250}
+  - {value: 1.750}
+  - {value: 2.462}
+  - {value: 3.456}
+  - {value: 4.866}
+  - {value: 6.892}
+  - {value: 9.644}
+  - {value: 16.368}
+dependent_variables:
+- header: {name: '$width$'}
+  qualifiers:
+  - {name: '$pT$', value: '$Gaussian widths of the awayside jet peaks in p+p(20-40 GeV)$'}
+  values:
+  - value: 0.556
+    errors:
+    - {symerror: 0.038, label: '$stat$'}
+  - value: 0.429
+    errors:
+    - {symerror: 0.016, label: '$stat$'}
+  - value: 0.371
+    errors:
+    - {symerror: 0.014, label: '$stat$'}
+  - value: 0.311
+    errors:
+    - {symerror: 0.012, label: '$stat$'}
+  - value: 0.260
+    errors:
+    - {symerror: 0.010, label: '$stat$'}
+  - value: 0.196
+    errors:
+    - {symerror: 0.009, label: '$stat$'}
+  - value: 0.189
+    errors:
+    - {symerror: 0.008, label: '$stat$'}
+  - value: 0.184
+    errors:
+    - {symerror: 0.010, label: '$stat$'}
+  - value: 0.161
+    errors:
+    - {symerror: 0.009, label: '$stat$'}
+  - value: 0.143
+    errors:
+    - {symerror: 0.010, label: '$stat$'}

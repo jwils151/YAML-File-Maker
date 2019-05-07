@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$pT(Jet)$'}
+  values:
+  - {value: 0.250}
+  - {value: 0.750}
+  - {value: 1.250}
+  - {value: 1.750}
+  - {value: 2.371}
+  - {value: 3.404}
+  - {value: 4.816}
+  - {value: 6.856}
+  - {value: 9.598}
+  - {value: 16.114}
+dependent_variables:
+- header: {name: '$DAA$'}
+  qualifiers:
+  - {name: '$pT(Jet)$', value: '$Awayside momentum difference(DAA) shown for 20-40 GeV$'}
+  values:
+  - value: 0.765
+    errors:
+    - {symerror: 0.308, label: '$stat$'}
+  - value: 1.906
+    errors:
+    - {symerror: 0.418, label: '$stat$'}
+  - value: 1.130
+    errors:
+    - {symerror: 0.429, label: '$stat$'}
+  - value: 0.246
+    errors:
+    - {symerror: 0.156, label: '$stat$'}
+  - value: -0.546
+    errors:
+    - {symerror: 0.126, label: '$stat$'}
+  - value: -0.625
+    errors:
+    - {symerror: 0.099, label: '$stat$'}
+  - value: -1.065
+    errors:
+    - {symerror: 0.130, label: '$stat$'}
+  - value: -0.791
+    errors:
+    - {symerror: 0.128, label: '$stat$'}
+  - value: -0.860
+    errors:
+    - {symerror: 0.175, label: '$stat$'}
+  - value: -1.211
+    errors:
+    - {symerror: 0.333, label: '$stat$'}

@@ -1,0 +1,116 @@
+independent_variables:
+- header: {name: '$Deltaphi$'}
+  values:
+  - {value: -0.931}
+  - {value: -0.698}
+  - {value: -0.465}
+  - {value: -0.233}
+  - {value: 0.000}
+  - {value: 0.233}
+  - {value: 0.465}
+  - {value: 0.698}
+  - {value: 0.931}
+  - {value: 1.164}
+  - {value: 1.396}
+  - {value: 1.629}
+  - {value: 1.862}
+  - {value: 2.094}
+  - {value: 2.327}
+  - {value: 2.560}
+  - {value: 2.793}
+  - {value: 3.025}
+  - {value: 3.258}
+  - {value: 3.491}
+  - {value: 3.723}
+  - {value: 3.956}
+  - {value: 4.189}
+  - {value: 4.422}
+  - {value: 4.654}
+  - {value: 4.887}
+  - {value: 5.120}
+dependent_variables:
+- header: {name: '$1/N(jets)dN/dDeltaphi$'}
+  qualifiers:
+  - {name: '$Deltaphi$', value: '$Jet-hadron correlations after background subtraction. Shown with Gaussian fits to jet peaks and systematic uncertantt bands. Au+Au(4-6 GeV)$'}
+  values:
+  - value: 0.003
+    errors:
+    - {symerror: 0.514, label: '$stat$'}
+  - value: 0.301
+    errors:
+    - {symerror: 0.718, label: '$stat$'}
+  - value: 0.239
+    errors:
+    - {symerror: 0.601, label: '$stat$'}
+  - value: 0.444
+    errors:
+    - {symerror: 0.770, label: '$stat$'}
+  - value: 0.526
+    errors:
+    - {symerror: 0.846, label: '$stat$'}
+  - value: 0.585
+    errors:
+    - {symerror: 0.912, label: '$stat$'}
+  - value: 0.189
+    errors:
+    - {symerror: 0.550, label: '$stat$'}
+  - value: 0.082
+    errors:
+    - {symerror: 0.500, label: '$stat$'}
+  - value: -0.053
+    errors:
+    - {symerror: 0.458, label: '$stat$'}
+  - value: -0.006
+    errors:
+    - {symerror: 0.643, label: '$stat$'}
+  - value: 0.045
+    errors:
+    - {symerror: 0.839, label: '$stat$'}
+  - value: 0.038
+    errors:
+    - {symerror: 0.940, label: '$stat$'}
+  - value: 0.131
+    errors:
+    - {symerror: 1.056, label: '$stat$'}
+  - value: 0.435
+    errors:
+    - {symerror: 1.275, label: '$stat$'}
+  - value: 0.683
+    errors:
+    - {symerror: 1.340, label: '$stat$'}
+  - value: 1.124
+    errors:
+    - {symerror: 1.545, label: '$stat$'}
+  - value: 1.321
+    errors:
+    - {symerror: 1.629, label: '$stat$'}
+  - value: 1.320
+    errors:
+    - {symerror: 1.575, label: '$stat$'}
+  - value: 1.303
+    errors:
+    - {symerror: 1.558, label: '$stat$'}
+  - value: 1.190
+    errors:
+    - {symerror: 1.498, label: '$stat$'}
+  - value: 1.149
+    errors:
+    - {symerror: 1.570, label: '$stat$'}
+  - value: 0.642
+    errors:
+    - {symerror: 1.298, label: '$stat$'}
+  - value: 0.363
+    errors:
+    - {symerror: 1.203, label: '$stat$'}
+  - value: 0.094
+    errors:
+    - {symerror: 1.019, label: '$stat$'}
+  - value: 0.218
+    errors:
+    - {symerror: 1.120, label: '$stat$'}
+  - value: -0.034
+    errors:
+    - {symerror: 0.761, label: '$stat$'}
+  - value: -0.014
+    errors:
+    - {symerror: 0.635, label: '$stat$'}
